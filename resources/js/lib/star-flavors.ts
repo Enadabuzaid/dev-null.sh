@@ -1,4 +1,4 @@
-export type StarFlavor = 'star' | 'ship' | 'fire' | 'bug' | 'brain' | 'coffee';
+export type StarFlavor = 'star' | 'ship' | 'fire' | 'brain' | 'party' | 'eyes';
 
 /**
  * The flavors a star can have, in the picker's order, with what each one says.
@@ -11,9 +11,9 @@ export const starFlavors: {
     { flavor: 'star', emoji: '⭐', meaning: 'Star it' },
     { flavor: 'ship', emoji: '🚀', meaning: 'Ship it' },
     { flavor: 'fire', emoji: '🔥', meaning: 'This is fire' },
-    { flavor: 'bug', emoji: '🐛', meaning: 'Found a bug' },
     { flavor: 'brain', emoji: '🧠', meaning: 'Big brain' },
-    { flavor: 'coffee', emoji: '☕', meaning: 'Worth a coffee' },
+    { flavor: 'party', emoji: '🎉', meaning: 'Congrats' },
+    { flavor: 'eyes', emoji: '👀', meaning: 'Watching this' },
 ];
 
 export const flavorEmoji = (flavor: StarFlavor): string =>

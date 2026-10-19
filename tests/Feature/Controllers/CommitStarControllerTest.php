@@ -75,7 +75,7 @@ it('shows the two flavors given most, leaving out plain stars', function (): voi
     $user = User::factory()->create();
     $commit = Commit::factory()->create();
 
-    foreach (['fire', 'fire', 'fire', 'ship', 'ship', 'bug', 'star', 'star', null] as $flavor) {
+    foreach (['fire', 'fire', 'fire', 'ship', 'ship', 'eyes', 'star', 'star', null] as $flavor) {
         User::factory()->create()->starredCommits()->attach($commit, ['flavor' => $flavor]);
     }
 

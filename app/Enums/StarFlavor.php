@@ -12,7 +12,7 @@ enum StarFlavor: string
     case Star = 'star';
     case Ship = 'ship';
     case Fire = 'fire';
-    case Bug = 'bug';
     case Brain = 'brain';
-    case Coffee = 'coffee';
+    case Party = 'party';
+    case Eyes = 'eyes';
 }
